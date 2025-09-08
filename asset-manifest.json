@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/hangulromanization.github.io/static/css/main.0adedeff.css",
-    "main.js": "/hangulromanization.github.io/static/js/main.b3f42a38.js",
+    "main.js": "/hangulromanization.github.io/static/js/main.4b41c10d.js",
     "static/js/488.811b0e39.chunk.js": "/hangulromanization.github.io/static/js/488.811b0e39.chunk.js",
     "index.html": "/hangulromanization.github.io/index.html",
     "main.0adedeff.css.map": "/hangulromanization.github.io/static/css/main.0adedeff.css.map",
-    "main.b3f42a38.js.map": "/hangulromanization.github.io/static/js/main.b3f42a38.js.map",
+    "main.4b41c10d.js.map": "/hangulromanization.github.io/static/js/main.4b41c10d.js.map",
     "488.811b0e39.chunk.js.map": "/hangulromanization.github.io/static/js/488.811b0e39.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0adedeff.css",
-    "static/js/main.b3f42a38.js"
+    "static/js/main.4b41c10d.js"
   ]
 }
