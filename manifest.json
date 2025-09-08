@@ -1,6 +1,6 @@
 {
-  "short_name": "Hangul > Romanization Converter",
-  "name": "Hangul > Romanization Converter",
+  "short_name": "Romanization > Hangul Converter",
+  "name": "Romanization > Hangul Converter",
   "icons": [
     {
       "src": "favicon.ico",
