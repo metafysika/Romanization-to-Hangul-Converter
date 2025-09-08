@@ -1,0 +1,78 @@
+import {
+  Textarea,
+  Text,
+  Tooltip,
+  Card,
+  tokens,
+  Button,
+  makeStyles,
+  shorthands,
+  useFluent,
+} from '@fluentui/react-components';
+
+export const useStyles = makeStyles({
+  root: {
+    flex: 1,
+    display: 'flex',
+    flexDirection: 'column',
+    height: '100%',
+    width: '100%',
+    padding: '32px',
+    maxWidth: '960px',
+    margin: 'auto',
+    backgroundColor: tokens.colorNeutralBackground1,
+    ...shorthands.borderRadius(tokens.borderRadiusXLarge),
+    boxShadow: tokens.shadow16,
+    boxSizing: 'border-box',
+    minHeight: '80vh',
+  },
+  cardContainer: {
+    display: 'flex',
+    flexDirection: 'column',
+    flex: 1,
+    gap: '16px',
+    minHeight: 0,
+  },
+  card: {
+    flex: '0 1 40vh',
+    display: 'flex',
+    flexDirection: 'column',
+    minHeight: 0,
+    width: '100%',
+    padding: '16px',
+    backgroundColor: tokens.colorNeutralBackground2,
+    ...shorthands.borderRadius(tokens.borderRadiusLarge),
+    boxShadow: tokens.shadow8,
+    boxSizing: 'border-box',
+  },
+  label: {
+    marginBottom: '8px',
+    color: tokens.colorNeutralForeground1,
+  },
+  textarea: {
+    width: '100%',
+    flex: 1,
+    minHeight: 0, 
+    height: '100%',
+    marginTop: '8px',
+    fontSize: '16px',
+    padding: '12px',
+    minHeight: '120px',
+    touchAction: 'manipulation',
+    backgroundColor: tokens.colorNeutralBackground3,
+    color: tokens.colorNeutralForeground1,
+    ...shorthands.borderRadius(tokens.borderRadiusMedium),
+    border: `1px solid ${tokens.colorNeutralStroke1}`,
+  },
+  clearButton: {
+    marginTop: '12px',
+    alignSelf: 'flex-end',
+  },
+  footer: {
+    marginTop: '32px',
+    color: tokens.colorNeutralForeground3,
+    textAlign: 'center',
+  },
+});
+
+export default useStyles;

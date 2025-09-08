@@ -1,9 +1,17 @@
 {
+  "homepage": "https://metafysika.github.io/hangulromanization.github.io",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
-    "@fluentui/react-components": "^9.69.0"
+    "@fluentui/react-components": "^9.69.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
+    "web-vitals": "^5.1.0"
   },
   "browserslist": {
     "production": [
@@ -16,5 +24,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
